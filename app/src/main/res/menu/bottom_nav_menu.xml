@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_menu"
+        android:icon="@drawable/ic_menu"
+        android:title="Menu" />
+
+    <item
+        android:id="@+id/nav_idl"
+        android:icon="@drawable/ic_idl"
+        android:title="idl" />
+
+    <item
+        android:id="@+id/nav_music"
+        android:icon="@drawable/ic_music"
+        android:title="music" />
+
+    <item
+        android:id="@+id/nav_airplane"
+        android:icon="@drawable/ic_airplane"
+        android:title="airplane" />
+
+    <item
+        android:id="@+id/nav_calendar"
+        android:icon="@drawable/ic_calendar"
+        android:title="calendar" />
+
+</menu>

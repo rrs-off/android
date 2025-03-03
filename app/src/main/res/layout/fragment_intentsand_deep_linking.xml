@@ -1,0 +1,17 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_idl"
+        android:layout_width="265dp"
+        android:layout_height="93dp"
+        android:backgroundTint="#2196F3"
+        android:text="select and share"
+        android:textAllCaps="true"
+        android:textSize="24sp" />
+</LinearLayout>

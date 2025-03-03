@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        style="@android:style/Widget.Material.CalendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A1DEC26E"
+        android:focusedMonthDateColor="#A7A90F0F" />
+
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_add_event"
+        style="@style/Widget.Material3.Button.TonalButton.Icon"
+        android:layout_width="279dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#2196F3"
+        android:text="+ event"
+        android:textAllCaps="true"
+        android:textColor="#FDFDFD"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
+
+
+

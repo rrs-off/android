@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_extra1"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#2196F3"
+        android:text="select and share" />
+
+    <Button
+        android:id="@+id/btn_extra2"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#2196F3"
+        android:text="music player" />
+
+    <Button
+        android:id="@+id/btn_extra3"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#2196F3"
+        android:text="airplane mode" />
+
+    <Button
+        android:id="@+id/btn_extra4"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#2196F3"
+        android:text="calendar events" />
+
+</LinearLayout>
+
